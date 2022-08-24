@@ -1,5 +1,4 @@
 body{
-    height: 1000px;
     background-color: #1A2238;
     color: white;
 }
@@ -25,8 +24,8 @@ a{
     width: 60px;
     border: none;
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 p{
     margin: 0;
@@ -36,6 +35,10 @@ p{
     font-weight: bold;
     padding: 10px;
     color: #1A2238;
+
+}
+a{
+    margin: 10px;
 }
 .right-bar{
     position: fixed;
@@ -44,10 +47,10 @@ p{
     align-items: center;
     border:dotted 1px;
     border-radius: 15px;
-    right: 10px;
     z-index: 100;
-    top: 5px;
     bottom: 5px;
+    right: 5px;
+    left: 5px;
     background-color: #F4DB7D;
 }
 .hi{
