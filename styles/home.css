@@ -1,3 +1,8 @@
+body{
+    height: 1000px;
+    background-color: #1A2238;
+    color: white;
+}
 img{
     width: 50px;
     height: 50px;
@@ -7,12 +12,68 @@ a{
     text-decoration: none;
     width: 50px;
 }
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.about{
+    max-width: 600px;
+    margin-right: 10px;
+}
 .container{
-    margin: auto;
-    margin-right: -1px;
+    width: 60px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+p{
+    margin: 0;
+}
+.social-div{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    color: #1A2238;
+}
+.right-bar{
+    position: fixed;
     display: flex;
     flex-direction: column;
-    width: 60px;
-    border-style: solid;
-    border-width: 1px;
+    align-items: center;
+    border:dotted 1px;
+    border-radius: 15px;
+    right: 10px;
+    z-index: 100;
+    top: 5px;
+    bottom: 5px;
+    background-color: #F4DB7D;
+}
+.hi{
+    font-size: 40px;
+}
+.hey{
+    width: 40px;
+    height: 35px;
+    margin: 0;
+}
+.hello{
+    display: flex;
+    height: 60px;
+}
+.tools{
+    width: 400px;
+    background-color: #9DAAF2;
+    border: none;
+    color: #1A2238;
+    padding: 10px;
+    border-radius: 20px;
+}
+.name{
+    color: #FF6A3D;
+}
+.about{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
